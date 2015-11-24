@@ -26,6 +26,9 @@ temporal:
     estimated: "2014-02-08"
     modified: "2014-02-08"
     poc_id: ""
+distribution:
+ - downloadURL: ""
+   format: "text/HTML"
 datasets:
   - #linked to UUID below using the concpet of a data `Collection` as supported by https://project-open-data.cio.gov/v1.1/schema/#isPartOf
 UUID: "6c84f044-f312-9fd5-2e65-b95fad958705
