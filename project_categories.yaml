@@ -2,111 +2,111 @@
 ---
 Life Sciences:
   Biochemistry, Biophysics, and Structural Biology:
-  Biochemistry
-  Biogeochemistry
-  Biophysics
-  Molecular Biology
-  Structural Biology
-  Cell and Developmental Biology
+    Biochemistry
+    Biogeochemistry
+    Biophysics
+    Molecular Biology
+    Structural Biology
+    Cell and Developmental Biology
 
   Anatomy:
-  Cell Biology
-  Developmental Biology
-  Cancer Biology
-  Ecology and Evolutionary Biology
+    Cell Biology
+    Developmental Biology
+    Cancer Biology
+    Ecology and Evolutionary Biology
 
   Behavior and Ethology:
-  Biogeochemistry
-  Botany
-  Evolution
-  Population Biology
-  Terrestrial and Aquatic Ecology
-  Public Health
+    Biogeochemistry
+    Botany
+    Evolution
+    Population Biology
+    Terrestrial and Aquatic Ecology
+    Public Health
 
   Environmental Health:
-  Epidemiology
-  Biostatistics
-  Genetics and Genomics
+    Epidemiology
+    Biostatistics
+    Genetics and Genomics
 
   Computational Biology:
-  Genetics
-  Genomics
-  Molecular genetics
-  Immunology and Infectious Disease
+    Genetics
+    Genomics
+    Molecular genetics
+    Immunology and Infectious Disease
 
   Immunity:
-  Immunology of Infectious Disease
-  Immunopathology
-  Immunoprophylaxis and Therapy
-  Pathology
-  Parasitology
+    Immunology of Infectious Disease
+    Immunopathology
+    Immunoprophylaxis and Therapy
+    Pathology
+    Parasitology
 
 Biology/Integrated Biology/ Integrated Biomedical Sciences:
 #Note: This is only if the degree field is not specialized.
 
   Kinesiolog:
-  Biomechanics
-  Exercise Physiology
-  Motor Control
-  Psychology of Movement
-  Microbiology
+    Biomechanics
+    Exercise Physiology
+    Motor Control
+    Psychology of Movement
+    Microbiology
 
-Bacteriology
-Environmental Microbiology and Microbial Ecology
-Microbial Physiology
-Pathogenic Microbiology
-Virology
-Neuroscience and Neurobiology
+  Bacteriology:
+    Environmental Microbiology and Microbial Ecology
+    Microbial Physiology
+    Pathogenic Microbiology
+    Virology
+    Neuroscience and Neurobiology
 
-Behavioral Neurobiology
-Cognitive Neuroscience
-Computational Neuroscience
-Developmental Neuroscience
-Molecular and Cellular Neuroscience
-Systems Neuroscience
-Nursing
-Pharmacology, Toxicology and Environmental Health
+  Behavioral Neurobiology:
+    Cognitive Neuroscience
+    Computational Neuroscience
+    Developmental Neuroscience
+    Molecular and Cellular Neuroscience
+    Systems Neuroscience
+    Nursing
+    Pharmacology, Toxicology and Environmental Health
 
-Environmental Health
-Medicinal Chemistry and Pharmaceutics
-Pharmacology
-Toxicology
-Physiology
+  Environmental Health:
+    Medicinal Chemistry and Pharmaceutics
+    Pharmacology
+    Toxicology
+    Physiology
 
-Cellular and Molecular Physiology
-Comparative and Evolutionary Physiology
-Endocrinology
-Exercise Physiology
-Systems and Integrative Physiology
-Animal Sciences
+  Cellular and Molecular Physiology:
+    Comparative and Evolutionary Physiology
+    Endocrinology
+    Exercise Physiology
+    Systems and Integrative Physiology
+    Animal Sciences
 
-Animal Sciences
-Aquaculture and Fisheries
-Dairy Science
-Poultry (or Avian) Science
-Zoology
-Entomology
-Food Science
+  Animal Sciences:
+    Aquaculture and Fisheries
+    Dairy Science
+    Poultry (or Avian) Science
+    Zoology
+    Entomology
+    Food Science
 
-Food Processing
+Food Processing:
 Food Microbiology
 Food Chemistry
 Food Biotechnology
 Forestry and Forest Sciences
 
-Forest Biology
+Forest Biology:
 Forest Management
 Wood Science and Pulp/Paper Technology
 Nutrition
 
-Comparative Nutrition
+Comparative Nutrition:
 Human and Clinical Nutrition
 International and Community Nutrition
 Molecular, Genetic, and Biochemical Nutrition
 Nutritional Epidemiology
 Plant Sciences
 
-Agronomy and Crop Sciences
+Agronomy and Crop Sciences:
 Botany
 Horticulture
 Plant Biology
@@ -114,14 +114,11 @@ Plant Pathology
 Plant Breeding and Genetics
 
 Emerging Fields:
-
-
 Bioinformatics
 Biotechnology
 Systems Biology
 
-
-PHYSICAL SCIENCES & MATHEMATICS
+PHYSICAL SCIENCES & MATHEMATICS:
 Applied Mathematics
 
 Control Theory
