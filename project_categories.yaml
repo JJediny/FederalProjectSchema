@@ -6,14 +6,15 @@ Life Sciences:
     Biophysics
     Molecular Biology
     Structural Biology
-    Cell and Developmental Biology
+
+  Cell and Developmental Biology:
     Anatomy
     Cell Biology
     Developmental Biology
     Cancer Biology
-    Ecology and Evolutionary Biology
 
-  Behavior and Ethology:
+  Ecology and Evolutionary Biology:
+    Behavior and Ethology
     Biogeochemistry
     Botany
     Evolution
@@ -24,31 +25,30 @@ Life Sciences:
     Environmental Health
     Epidemiology
     Biostatistics
-    Genetics and Genomics
 
-  Computational Biology:
+  Genetics and Genomics:
+    Computational Biology
     Genetics
     Genomics
     Molecular genetics
-    Immunology and Infectious Disease
 
-  Immunity:
+  Immunology and Infectious Disease:
+    Immunity
     Immunology of Infectious Disease
     Immunopathology
     Immunoprophylaxis and Therapy
     Pathology
     Parasitology
 
-  Biology/Integrated Biology/ Integrated Biomedical Sciences:
-
-  Kinesiolog:
+  Biology/Integrated Biology/Integrated Biomedical Sciences:
+    Kinesiolog
     Biomechanics
     Exercise Physiology
     Motor Control
     Psychology of Movement
-    Microbiology
 
-  Bacteriology:
+  Microbiology:
+    Bacteriology
     Environmental Microbiology and Microbial Ecology
     Microbial Physiology
     Pathogenic Microbiology
@@ -61,16 +61,17 @@ Life Sciences:
     Developmental Neuroscience
     Molecular and Cellular Neuroscience
     Systems Neuroscience
-    Nursing
-    Pharmacology, Toxicology and Environmental Health
 
-  Environmental Health:
+  Nursing:
+
+  Pharmacology, Toxicology and Environmental Health:
+    Environmental Health
     Medicinal Chemistry and Pharmaceutics
     Pharmacology
     Toxicology
-    Physiology
 
-  Cellular and Molecular Physiology:
+  Physiology:
+    Cellular and Molecular Physiology
     Comparative and Evolutionary Physiology
     Endocrinology
     Exercise Physiology
@@ -81,16 +82,17 @@ Life Sciences:
     Dairy Science
     Poultry (or Avian) Science
     Zoology
-    Entomology
-    Food Science
 
-  Food Processing:
+  Entomology:
+
+  Food Science:
+    Food Processing
     Food Microbiology
     Food Chemistry
     Food Biotechnology
-    Forestry and Forest Sciences
 
-  Forest Biology:
+  Forestry and Forest Sciences:
+    Forest Biology
     Forest Management
     Wood Science and Pulp/Paper Technology
 
@@ -319,9 +321,9 @@ SOCIAL AND BEHAVIORAL SCIENCES:
     Archaeological
     Biological and Physical
     Linguistic Anthrolpology
+    Social and Cultural
 
-  Social and Cultural:
-    Communication
+  Communication:
     Broadcast/Video Studies
     Communication Technology and New Media
     Critical and Cultural Studies
@@ -375,7 +377,8 @@ SOCIAL AND BEHAVIORAL SCIENCES:
     International Relations
     Models and Methods
     Political Theory
-    Public Affairs, Public Policy and Public Administration
+
+  Public Affairs, Public Policy and Public Administration:
     Public Administration
     Public Affairs
     Public Policy
@@ -432,7 +435,8 @@ ARTS AND HUMANITIES:
     Classical Archaeology and Art History
     Classical Literature and Philology
     Indo-European Linguistics and Philology
-    Comparative Literature
+
+  Comparative Literature:
 
   English Language and Literature:
     Literature in English, British Isles
@@ -531,3 +535,4 @@ ARTS AND HUMANITIES:
     Film Studies
     Race, Ethnicity and post Colonial Studies
     Rhetoric and Composition
+...

@@ -1,0 +1,66 @@
+ProjectGUID:
+ProjectName:
+ProjectDataProvider:
+ProjectDescription:
+ProjectDateLastUpdated:
+DatabaseContactName:
+ProjectStatus:
+publicContact:
+publicContactAffiliation:
+publicContactEmail:
+publicContactPhone:
+publicContactAddress:
+numParticipants:
+projectActiveParticipantDefinition:
+numActiveparticipants:
+participantAge:
+participantAudience_Scistarter:
+participantEducation:
+educatorMaterials:
+participationTasks:
+projectGear:
+fieldOfScience:
+projectInstitutionName:
+projectDataAPI:
+projectImage:
+projectURL:
+projectFacebook:
+projectTwitter:
+projectBlog:
+preferredSocialMedia:
+
+#Translated into a simplified format to review structure
+---
+GUID:
+Name:
+Description:
+LastUpdated:
+Status:
+DataProvider:
+Database:
+DataAPI:
+Contact:
+  Name:
+  Affiliation:
+  Email:
+  Phone:
+  Address:
+Participants:
+  Total:
+  Active:
+  ActiveParticipantDefinition:
+  Age:
+  Audience_Scistarter:
+Education:
+Materials:
+Tasks:
+Gear:
+fieldOfScience:
+InstitutionName:
+Image:
+URL:
+Facebook:
+Twitter:
+Blog:
+preferredSocialMedia:
+...
