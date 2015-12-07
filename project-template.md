@@ -4,10 +4,10 @@ layout:   #This field is not part of the metadata rather it is used by Github Pa
 # Common Core 'project` Metadata (this form is using Yet Another Markup Language YAML or .yml which can be easily created as a static file but compiled/aggregated easily into a collection of JSON objects)
 conformsTo: https://project-open-data.cio.gov/projects/v1.1/schema
 describedBy: "URL to `project` extended metadata based on the type of project it is"
-uniqueID: "6c84f044-f312-9fd5-2e65-b95fad958705" #Issued by central UUID server
+UUID: "6c84f044-f312-9fd5-2e65-b95fad958705" #Issued by central UUID server
 isPartOf: ""                #means by which to relate projects using GUID
 
-name: ""
+title: ""
 description: ""
 status: ""                  #describedBy needed
 categories: ""              #Comma separated values of referenced value(s)
@@ -15,30 +15,36 @@ keywords: ""                #Comma separated values
 attribution: ""
 access: "public"            #URL to reference levels of access
 contacts:
-  - uniqueID: ""
+  - email: ""
     name: ""
-    email: ""
-    phone: ""
     role: ""
+    office: ""
     organizationCode: ""
+    phone: ""
     description: ""
     contactType: ""         #internal|external
+    adhocID: ""
+    #GUID: ""               #If system uses UUID for contacts
 spatial:
-  - geojson: ""             #lat|long nor address should be used as limits the functionality to a single point - no project is represented by a point
-    description: ""
+  - name: ""
+    geojson: ''             #lat|long nor address should be used as limits the functionality to a single point - no project is represented by a point
+    #lat: ""
+    #long: ""
+    #address: ""            
 temporal:
   - name: ""
     type: ""
-    from: "YYYY-MM-DD"      #T12:00:00.000Z
-    to: "YYYY-MM-DD"        #T12:00:00.000Z
-    estimated: "YYYY-MM-DD" #T12:00:00.000Z
-    modified: "YYYY-MM-DD"  #T12:00:00.000Z
-    poc: ""                 #contact_uniqueID or contact_group
+    from: "YYYY-MM-DD"       #T12:00:00.000Z
+    to: "YYYY-MM-DD"         #T12:00:00.000Z
+    #estimated: "YYYY-MM-DD" #T12:00:00.000Z
+    #modified: "YYYY-MM-DD"  #T12:00:00.000Z
+    contactId: ""            #contact_uniqueID or contact_group
 data:
   - uri:                    #link to `dataset` GlobalID used by Data.gov and the Project-Open-Data `Collection` concept
 media:                      #images, html, pdfs, etc.  
   - name:
     url:
+    mediaType: ".extension" #.pdf,.html,.image
     attribution:
 resources:                  #funds and financing
   - organizationCode: ""    #use bureauCode for federal agencies another registration process for others?
@@ -49,7 +55,6 @@ notes: >
     Comments and notes
     can be entered as a paragraph
     by using simple indentation.  
-
 #Optional Fields
 social:                     #social networks
   - website:
@@ -60,6 +65,7 @@ extended:                   #additional/optional fields can be listed and nested
   - whatever:
     additional:
     - attributes:
+      - or:
   - fields:
   - needed:
 ---
