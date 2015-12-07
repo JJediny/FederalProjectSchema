@@ -57,10 +57,7 @@ notes: >
     by using simple indentation.  
 #Optional Fields
 social:                     #social networks
-  - website:
-    blog:
-    twitter:
-    facebook:
+  - url:
 extended:                   #additional/optional fields can be listed and nested within this structure
   - whatever:
     additional:
