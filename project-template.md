@@ -67,6 +67,8 @@ resources:                  #funds and financing
     ofTotal: ""             #$
     investmentType: ""      #need a ref URL source
     contactId: ""           #contact_id used to relate to contact managing resource
+social:                     #social networks
+  - url:
 extended:                   #additional/optional fields can be listed and nested within this structure
   - whatever:
     additional:
