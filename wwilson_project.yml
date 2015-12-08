@@ -1,3 +1,4 @@
+---
 ProjectGUID:
 ProjectName:
 ProjectDataProvider:
@@ -28,39 +29,4 @@ projectFacebook:
 projectTwitter:
 projectBlog:
 preferredSocialMedia:
-
-#Translated into a simplified format to review structure
 ---
-GUID:
-Name:
-Description:
-LastUpdated:
-Status:
-DataProvider:
-Database:
-DataAPI:
-Contact:
-  Name:
-  Affiliation:
-  Email:
-  Phone:
-  Address:
-Participants:
-  Total:
-  Active:
-  ActiveParticipantDefinition:
-  Age:
-  Audience_Scistarter:
-Education:
-Materials:
-Tasks:
-Gear:
-fieldOfScience:
-InstitutionName:
-Image:
-URL:
-Facebook:
-Twitter:
-Blog:
-preferredSocialMedia:
-...

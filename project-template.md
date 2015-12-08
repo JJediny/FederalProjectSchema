@@ -1,33 +1,35 @@
 ---
-layout:   #This field is not part of the metadata rather it is used by Github Pages
+#layout:   #This field is not part of the metadata rather it is used by Github Pages if applicable
 
 # Common Core 'project` Metadata (this form is using Yet Another Markup Language YAML or .yml which can be easily created as a static file but compiled/aggregated easily into a collection of JSON objects)
-conformsTo: https://project-open-data.cio.gov/projects/v1.1/schema
-describedBy: "URL to `project` extended metadata based on the type of project it is"
-UUID: "6c84f044-f312-9fd5-2e65-b95fad958705" #Issued by central UUID server
-isPartOf: ""                #means by which to relate projects using GUID
+
+conformsTo: https://project-open-data.cio.gov/projects/v1.1/schema       #Human readable documentation on schema does not yet exist - only provided as an example
+describedBy: https://project-open-data.cio.gov/projects/v1.1/schema.json #Machine readable schema to validate against & extended metadata for `project` category
+isPartOf:                                                           #Means by which to relate projects using UUID - only used if project is subset of a larger project/program
+UUID: 6c84f044-f312-9fd5-2e65-b95fad958705                          #Issued by central UUID server for purpose of re-identification in a distributed setting
 
 title: ""
 description: ""
-status: ""                  #describedBy needed
-categories: ""              #Comma separated values of referenced value(s)
+status: ""                  #validation via describedBy needed
+categories: ""              #Comma separated values of referenced value(s) in DescribedBy (see project_categories.md using NAS list)
 keywords: ""                #Comma separated values
-attribution: ""
-access: "public"            #URL to reference levels of access
+attribution: ""             
+accessLevel: "public"       #public, restricted, non-public - URL to reference levels of access in DescribedBy
+publisher: ""               #organizationCode if Federal - name if not
+publishedURL: ""            #link to the project website or page from publisher
+dateModified: "YYYY-MM-DD"  #T12:00:00.000Z
 contacts:
   - email: ""
     name: ""
-    role: ""
+    role: ""                
     office: ""
-    organizationCode: ""
-    phone: ""
+    organizationCode: ""    #http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf
     description: ""
-    contactType: ""         #internal|external
-    adhocID: ""
-    #GUID: ""               #If system uses UUID for contacts
+    contactType: ""         #internal, external, etc - validation via describedBy needed
+    id: ""                  #Assigned at creation to relate to temporal and resources or UUID if system used to managed contacts
 spatial:
-  - name: ""
-    geojson: ''             #lat|long nor address should be used as limits the functionality to a single point - no project is represented by a point
+  - name: ""                
+    geojson: '[]'           #lat|long nor address should be used as limits the functionality to a single point - no project is represented by a point
     #lat: ""
     #long: ""
     #address: ""            
@@ -38,29 +40,33 @@ temporal:
     to: "YYYY-MM-DD"         #T12:00:00.000Z
     #estimated: "YYYY-MM-DD" #T12:00:00.000Z
     #modified: "YYYY-MM-DD"  #T12:00:00.000Z
-    contactId: ""            #contact_uniqueID or contact_group
+    contactId: ""            #contact_id
+federalData:
+  - uri:                     #link to `dataset` GlobalID used by Data.gov and the Project-Open-Data `Collection` concept federal data should use existing agency processes
+    created: True            #True if data was produced from project - False if it was usedBy the project for citation/reference
 data:
-  - uri:                    #link to `dataset` GlobalID used by Data.gov and the Project-Open-Data `Collection` concept
-media:                      #images, html, pdfs, etc.  
   - name:
     url:
-    mediaType: ".extension" #.pdf,.html,.image
+    license:
     attribution:
-resources:                  #funds and financing
-  - organizationCode: ""    #use bureauCode for federal agencies another registration process for others?
-    portionOf: ""           #$
-    ofTotal: ""             #$
-    investmentType: ""                #need a ref URL source
+    created: True            #True if data was produced from project - False if it was usedBy the project for citation/reference or derived from    
+    #describedBy:            #used to document an API or rare/unique format
+media:                       #images, html, pdfs, etc.  
+  - name:
+    url:
+socialMedia:                 #social networks
+  - url:    
 notes: >
     Comments and notes
     can be entered as a paragraph
     by using simple indentation.  
 #Optional Fields
-social:                     #social networks
-  - website:
-    blog:
-    twitter:
-    facebook:
+resources:                  #funds and financing
+  - organizationCode: ""    #use bureauCode for federal agencies another registration process for others?
+    portionOf: ""           #$
+    ofTotal: ""             #$
+    investmentType: ""      #need a ref URL source
+    contactId: ""           #contact_id used to relate to contact managing resource
 extended:                   #additional/optional fields can be listed and nested within this structure
   - whatever:
     additional:
@@ -70,11 +76,7 @@ extended:                   #additional/optional fields can be listed and nested
   - needed:
 ---
 
-### Autogenerated UniqueID from Distributed or Central Clearinghouse using see:
-https://en.wikipedia.org/wiki/Universally_unique_identifier"
+## Autogenerated UniqueID from Distributed or Central Clearinghouse using see:
+https://en.wikipedia.org/wiki/Universally_unique_identifier
 
 > categories (used by github-pages) but === topics or type... this could be used to build out a appended schema (i.e. add additional fields specific to those types of `projects`)
-
-Other First order fields to be considered:
-* Total Project Cost/Budget?
-* Federal Share?
