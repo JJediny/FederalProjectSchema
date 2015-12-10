@@ -19,9 +19,9 @@ publisher: ""               #organizationCode if Federal - name if not
 publishedURL: ""            #link to the project website or page from publisher
 dateModified: "YYYY-MM-DD"  #T12:00:00.000Z
 contacts:
-  - email: ""
-    name: ""
-    role: ""                
+  - email: ""               #open question could @email be used to identify agency and organizationCode?
+    name: ""                #full name with schema controlling the formating first last
+    role: ""                #list/validation via describedBy needed
     office: ""
     organizationCode: ""    #http://www.whitehouse.gov/sites/default/files/omb/assets/a11_current_year/app_c.pdf
     description: ""
@@ -35,26 +35,28 @@ spatial:
     #address: ""            
 temporal:
   - name: ""
-    type: ""
+    milestoneType: ""       #validation via describedBy needed
+    description: ""
     from: "YYYY-MM-DD"       #T12:00:00.000Z
     to: "YYYY-MM-DD"         #T12:00:00.000Z
     #estimated: "YYYY-MM-DD" #T12:00:00.000Z
     #modified: "YYYY-MM-DD"  #T12:00:00.000Z
-    contactId: ""            #contact_id
+    contactId: ""            #contact_id OR name@email for specific poc OR @email for org
 federalData:
   - uri:                     #link to `dataset` GlobalID used by Data.gov and the Project-Open-Data `Collection` concept federal data should use existing agency processes
-    created: True            #True if data was produced from project - False if it was usedBy the project for citation/reference
+    created: true            #True if data was produced from project - False if it was usedBy the project for citation/reference
 data:
   - name:
     url:
     license:
     attribution:
-    created: True            #True if data was produced from project - False if it was usedBy the project for citation/reference or derived from    
+    created: true            #True if data was produced from project - False if it was usedBy the project for citation/reference or derived from    
     #describedBy:            #used to document an API or rare/unique format
 media:                       #images, html, pdfs, etc.  
   - name:
     url:
-socialMedia:                 #social networks
+    attribution:
+socialMedia:                 #social networks - is url alone enough to describe itself?
   - url:    
 notes: >
     Comments and notes
@@ -63,13 +65,11 @@ notes: >
 #Optional Fields
 resources:                  #funds and financing
   - organizationCode: ""    #use bureauCode for federal agencies another registration process for others?
-    portionOf: ""           #$
-    ofTotal: ""             #$
+    portionOf: ""           #$ or %
+    ofTotal: ""             #$ or %
     investmentType: ""      #need a ref URL source
     contactId: ""           #contact_id used to relate to contact managing resource
-social:                     #social networks
-  - url:
-extended:                   #additional/optional fields can be listed and nested within this structure
+extended:                   #additional/optional fields can be listed and nested within this structure list/validation controlled by describedBy schema
   - whatever:
     additional:
     - attributes:

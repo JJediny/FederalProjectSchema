@@ -131,6 +131,7 @@
 #    - "licenses"
     - "owner_type"  #type
     - "testable"
+# Shouldnt testing be its own category with links to badges (travis/coverage/gitter/npm)
   definitions:
     person:
       type: "object"
