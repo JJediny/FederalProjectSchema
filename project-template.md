@@ -3,8 +3,8 @@
 
 # Common Core 'project` Metadata (this form is using Yet Another Markup Language YAML or .yml which can be easily created as a static file but compiled/aggregated easily into a collection of JSON objects)
 
-conformsTo: https://project-open-data.cio.gov/projects/v1.1/schema       #Human readable documentation on schema does not yet exist - only provided as an example
-describedBy: https://project-open-data.cio.gov/projects/v1.1/schema.json #Machine readable schema to validate against & extended metadata for `project` category
+conformsTo: https://some.website/projects/1.0/schema      #Human readable documentation on schema does not yet exist - only provided as an example
+describedBy: https://some.website/projects/category/v1.0/schema.json #Machine readable schema to validate against & extended metadata for `project` category
 isPartOf:                                                           #Means by which to relate projects using UUID - only used if project is subset of a larger project/program
 UUID: 6c84f044-f312-9fd5-2e65-b95fad958705                          #Issued by central UUID server for purpose of re-identification in a distributed setting
 
@@ -41,7 +41,7 @@ temporal:
     to: "YYYY-MM-DD"         #T12:00:00.000Z
     #estimated: "YYYY-MM-DD" #T12:00:00.000Z
     #modified: "YYYY-MM-DD"  #T12:00:00.000Z
-    contactId: ""            #contact_id OR name@email for specific poc OR @email for org
+    email: ""            #contact_id OR name@email for specific poc OR @email for org
 federalData:
   - uri:                     #link to `dataset` GlobalID used by Data.gov and the Project-Open-Data `Collection` concept federal data should use existing agency processes
     created: true            #True if data was produced from project - False if it was usedBy the project for citation/reference
@@ -57,18 +57,19 @@ media:                       #images, html, pdfs, etc.
     url:
     attribution:
 socialMedia:                 #social networks - is url alone enough to describe itself?
-  - url:    
+  - url:
+    socialmediaType:   
 notes: >
     Comments and notes
     can be entered as a paragraph
     by using simple indentation.  
 #Optional Fields
 resources:                  #funds and financing
-  - organizationCode: ""    #use bureauCode for federal agencies another registration process for others?
+  - description: ""    #use bureauCode for federal agencies another registration process for others?
     portionOf: ""           #$ or %
     ofTotal: ""             #$ or %
-    investmentType: ""      #need a ref URL source
-    contactId: ""           #contact_id used to relate to contact managing resource
+    resourceType: ""      #need a ref URL source
+    email: ""           #contact_id used to relate to contact managing resource
 extended:                   #additional/optional fields can be listed and nested within this structure list/validation controlled by describedBy schema
   - whatever:
     additional:
